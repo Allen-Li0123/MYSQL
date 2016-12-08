@@ -232,9 +232,9 @@ public class GetData extends DBHelper {
 	 */
 	public static void main(String[] args) {
 		try {
-			insertT_Vehicles_Versions();
+//			insertT_Vehicles_Versions();
 //			System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
-//			System.out.println(getPingYin("北汽新能源"));
+			System.out.println(getPingYin("北汽新能源"));
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error(e);
